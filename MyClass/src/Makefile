@@ -56,3 +56,5 @@ clean:
 		rm -f *%
 		rm -f a.out
 		rm -f *.so
+		rm -f *Dict*.C
+		rm -f *Dict*.h

@@ -3,6 +3,7 @@ ROOTINC = $(shell root-config --cflags)
 ROOTLIB = $(shell root-config --new --libs)
  
 CCFLAG   = -I. -I$(ROOTSYS)/include -L$(ROOTSYS)/lib -DLINUX
+CCFLAG  += -fPIC
 CC       = /usr/bin/g++ -O3 
 cc       = /usr/bin/gcc -O3
 TRAILOR  = -lm

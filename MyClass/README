@@ -1,1 +1,3 @@
 How to add your own class to ROOT so it can be stored in a ROOT file.
+
+(This can be a bit flaky once you start to use it !)
